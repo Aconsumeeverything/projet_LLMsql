@@ -214,7 +214,7 @@ def query_interface(query_nl):
 
     # Executer la requette générée par l IA
     result = execute_query(sql_query)
-    if isinstance(result, list):  # Result is a table
+    if isinstance(result, list):  
         formatted_result = "\n".join(
             [", ".join(map(str, row)) for row in result]
         )
@@ -228,11 +228,11 @@ iface = gr.Interface(
     inputs=gr.Textbox(
         label="Question en langage naturel",
         placeholder="Exemple : Listez tous les noms d'artistes.",
-        lines=5,  # Increase the number of lines for the input box
+        lines=5, 
     ),
     outputs=[
-        gr.Textbox(label="SQL Query utilisée", lines=7),  # Bigger box for SQL query
-        gr.Textbox(label="Résultat de la requête", lines=15),  # Bigger box for query result
+        gr.Textbox(label="SQL Query utilisée", lines=7),  
+        gr.Textbox(label="Résultat de la requête", lines=15),  
     ],
     title="Générateur et Exécuteur de Requêtes SQL basé sur LLM",
     description=(
