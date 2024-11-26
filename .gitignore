@@ -1,0 +1,34 @@
+# Virtual environment
+venv/
+
+# PostgreSQL data directory
+postgres_data/
+
+# Gradio's flagged examples directory (if created)
+flagged/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# IDE and editor files
+
+.vscode/
+
+
+# Bytecode and compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker related files
+.env

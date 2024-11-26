@@ -1,0 +1,40 @@
+body {
+    background-color: #f9f9fc; /* Light background color */
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+}
+
+h1, h2 {
+    color: #4a90e2; /* Blue color for headings */
+    text-align: center;
+}
+
+.gradio-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+textarea {
+    font-size: 18px; /* Larger font for better readability */
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%; /* Full width for the boxes */
+    height: auto; /* Adjust height automatically */
+}
+
+/* Custom size for specific elements if needed */
+.gr-input input {
+    height: 100px !important; /* Increase input height */
+}
+
+.gr-output {
+    height: 300px !important; /* Increase output height */
+}
+
+
+
