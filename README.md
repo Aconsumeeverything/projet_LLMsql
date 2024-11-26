@@ -30,8 +30,19 @@
    cd projet_LLMsql
    docker-compose up -d
    ```
+## Intialisation de la base de données 
+Une fois les contenaires sont lancées ,  sur un navigateur  visité (http://localhost:8080/) 
+et connecter vous en utilisant : 
+- mail : adming@gmail.com
+- password : admin
+Sur postgres  ajouté un nouveau serveur sous le nom de "postgres" et le mot de passe "admin "
+et sur la base de donnée mydatabase  copier le script sql  depuis le fichier "Chinook_PostgreSql.sql"  et lancer le script pour avoir les tables et les schemas 
+
 ## Visulalisation 
   Une fois l'installation est terminée lancer le script python et sur un navigateur visiter le local URL:  (http://127.0.0.1:7860)
+
+  ![image](https://github.com/user-attachments/assets/913d359b-3a6b-43af-a102-f7cc3d149ca3)
+
 
 
 
